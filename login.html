@@ -1,58 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login – For Artist By Artist</title>
+  <title>Upload Music – For Artist By Artist</title>
   <style>
     body {
       background: black;
-      color: red;
+      color: white;
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 50px;
+      padding: 40px;
     }
 
-    input {
-      width: 80%;
-      max-width: 300px;
+    .box {
+      max-width: 400px;
+      margin: auto;
+      background: #111;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px red;
+    }
+
+    h1 {
+      color: red;
+      margin-bottom: 20px;
+    }
+
+    input, select {
+      width: 100%;
       padding: 15px;
       margin: 10px 0;
       font-size: 16px;
       border: none;
-      border-radius: 5px;
+      border-radius: 8px;
     }
 
-    button {
+    .upload-btn {
       background: red;
       color: white;
       border: none;
       padding: 15px 30px;
       font-size: 18px;
+      width: 100%;
       cursor: pointer;
       margin-top: 15px;
-      border-radius: 5px;
+      border-radius: 10px;
     }
 
-    a {
-      color: white;
-      text-decoration: none;
-      display: block;
+    .upload-btn:hover {
+      background: darkred;
+    }
+
+    .back {
       margin-top: 20px;
+      display: inline-block;
+      color: red;
+      text-decoration: none;
+      font-size: 16px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Artist Login</h1>
+  <div class="box">
+    <h1>🎵 Upload Your Track</h1>
 
-  <form>
-    <input type="email" placeholder="Email" required><br>
-    <input type="password" placeholder="Password" required><br>
-    <button type="submit">Login</button>
-  </form>
+    <form>
+      <input type="text" placeholder="Artist Name" required>
+      <input type="text" placeholder="Song Title" required>
 
-  <a href="index.html">⬅ Back to Home</a>
+      <select required>
+        <option value="">Select Genre</option>
+        <option>Hip Hop</option>
+        <option>R&B</option>
+        <option>Pop</option>
+        <option>Afrobeats</option>
+        <option>Gospel</option>
+        <option>Rock</option>
+      </select>
+
+      <input type="file" accept="audio/*" required>
+
+      <button type="submit" class="upload-btn">Upload Song</button>
+    </form>
+
+    <a href="index.html" class="back">⬅ Back to Home</a>
+  </div>
 
 </body>
 </html>
 
- 
