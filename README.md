@@ -1,3 +1,4 @@
+https://fortheartist4.github.io
 # Artist Spotlight
 
 Welcome to the artist spotlight!
