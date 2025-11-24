@@ -1,2 +1,8 @@
-https://fortheartist4.github.io
-<img width="1024" height="1536" alt="artist spotlight" src="https://github.com/user-attachments/assets/af402cc0-5b34-4c6d-a0b8-3ecc8b22152e" />
+# Artist Spotlight
+
+Welcome to the artist spotlight!
+
+<img width="1024" height="1536" alt="artist spotlight" src="https://github.com/user-attachments/assets/fdb7538d-afb5-4c8d-ac42-25b689868954" />
+
+
+Thank you for visiting!
